@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empresa Elegante</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f7f8fa;
+      font-family: "Inter", sans-serif;
+      color: #333;
+    }
+
+    .navbar {
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .hero {
+      padding: 140px 0;
+      background: linear-gradient(135deg, #ffffff 0%, #eef1f7 100%);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .btn-modern {
+      border-radius: 50px;
+      padding: 12px 32px;
+      font-weight: 600;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .card-service {
+      border: none;
+      border-radius: 16px;
+      padding: 32px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      transition: .3s;
+    }
+
+    .card-service:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+    }
+
+    .testimonial {
+      background: #fff;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4" href="#">EmpresaElegante</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link px-3" href="#">Início</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1 class="mb-3">Soluções Modernas para Empresas que Pensam no Futuro</h1>
+    <p class="mb-4">Tecnologia, inovação e estratégia para impulsionar o crescimento do seu negócio.</p>
+    <a href="#contato" class="btn btn-primary btn-modern">Fale Conosco</a>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Sobre Nós</h2>
+    <p class="lead mx-auto" style="max-width: 700px;">
+      Somos uma empresa especializada em soluções digitais e consultoria estratégica.
+      Combinamos tecnologia, design e experiência para entregar resultados reais.
+    </p>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Nossos Serviços</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card-service text-center">
+          <h5 class="fw-bold mb-2">Consultoria Estratégica</h5>
+          <p>Planejamento e análise para decisões mais inteligentes e eficientes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-service text-center">
+          <h5 class="fw-bold mb-2">Desenvolvimento Web</h5>
+          <p>Sites modernos, rápidos e responsivos para sua presença digital.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-service text-center">
+          <h5 class="fw-bold mb-2">Branding & Design</h5>
+          <p>Construção de identidade visual elegante e alinhada ao seu propósito.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">O que dizem nossos clientes</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"Profissionais incríveis! Transformaram nossa presença digital."</p>
+          <strong>— Ana Ribeiro</strong>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"A consultoria estratégica fez toda a diferença no nosso crescimento."</p>
+          <strong>— Marcos Silva</strong>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"Design impecável e atendimento excepcional."</p>
+          <strong>— Carla Mendes</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Entre em Contato</h2>
+    <p class="lead mb-4">Estamos prontos para ajudar sua empresa a crescer.</p>
+
+    <a href="mailto:contato@empresa.com" class="btn btn-dark btn-modern">Enviar Email</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <p class="mb-0">© 2026 EmpresaElegante — Todos os direitos reservados</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
